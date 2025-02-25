@@ -1,0 +1,164 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 0em;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    margin-right: 50px;  /* Espacio desde el borde izquierdo (50px) */
+}
+
+.logo {
+    width: 60px;  /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 50px;  /* Espacio entre el logo y el nombre */
+}
+
+
+.about-columns {
+    display: flex;
+    gap: 20px; /* Espacio entre las columnas */
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.about-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.proyectos-columns{
+    display: flex;
+    gap: 0px; /* Espacio entre las columnas */
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+
+}
+/* Estilo para el panel lateral con altura dinámica */
+.side-nav {
+    width: 200px;
+    background-color: #454546;
+    padding: opx;
+    color: white;
+    height: 100%; /* Resta la altura del header */
+    box-sizing: border-box;
+    flex: 1;
+    max-width: 150px;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-nav ul li {
+    margin: 10px 0;
+}
+
+.side-nav ul li a {
+    display: block;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-right: 3px solid transparent; /* Línea a la derecha */
+    transition: background-color 0.3s, border-right 0.3s; /* Transición para suavizar */
+}
+
+
+/* Resaltado de la selección */
+.side-nav ul li a.selected {
+    background-color: #171717; /* Sombreado cuando el enlace está seleccionado */
+    border-right: 3px solid #ffae00; /* Resalta la línea cuando el proyecto está seleccionado */
+}
+
+/* Hover para los enlaces */
+.side-nav ul li a:hover {
+    background-color: #2c2d2c;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido de los proyectos */
+.projects-content {
+    padding: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #25D366;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.hide {
+    opacity: 0;
+    transition: opacity 2s; /* Ajusta la duración del desvanecimiento según tus preferencias */
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+.about-image {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.project-image { margin-top: 10px;
+    width: auto;
+    height: 400px;}
+
+.contacto-seccion {
+        padding: 2em;
+    }

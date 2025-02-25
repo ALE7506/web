@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo del Arquitecto" class="logo">
+            <h1>ALEXANDER HUANUQUEÑO CONDOR</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link">Sobre mi</a></li>
+                <li><a href="#projects" class="nav-link">Trabajos Realizados</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="about-columns">
+            <div class="about-column">
+                <h3>Sobre mí</h3>
+                <p>Soy técnico con experiencia, he tenido la oportunidad de realizar trabajos 
+                    técnicos de suelo, cadista y topografo para varias empresas. 
+                    Mi formación académica incluye Ingeniería Civil, complementada con una capacitación 
+                    de ensayos de suelo, topografia y dibujo técnico en el Instituto Sencico. Tengo una sólida 
+                    comprensión de los procedimientos y técnicas relacionados en construcción en construccion civil,
+                    Gas Natural y sistema HVAC, Memorias de Calculo, Control de Calidad.</p>
+                <p> En mis tiempos libres me capacito y realizo programacion (LISP, PHYTON, DYNAMO) 
+                    para optimizar trabajos de gestion.</p>
+            </div>
+            <div class="about-column">
+                <h3>Formación Académica</h3>
+                <p> SENCICO: Taller de laboratorio de suelos concreto y asfalto – Topografía - Dibujo CAD	</p>
+                <img src="logo_sencico.jpg" alt="Imagen formación académica" class="about-image">
+                <p>  	UCV: Bachiller Ing. Civil                    </p>
+                <img src="logo_vallejo.jpg" alt="Imagen formación académica" class="about-image">
+                <p>  	 	CALGESA: Charlas de calidad, Seguridad en el trabajo y Salud Ocupacional.</p>
+                <img src="logo_calgesa.png" alt="Imagen formación académica" class="about-image">
+                <p>  GRUPO INGENIERÍA SÍSMICA PERÚ: Proceso constructivo, Patologias estructurales, IIEE, IISS. </p>
+                <img src="logo_grupo_sismica_peru.jpg" alt="Imagen formación académica" class="about-image">
+            </div>
+           
+        </div>
+    </section>
+    
+    
+    <section id="projects" style="display:none;">
+        <div class="proyectos-columns">
+        <!-- Panel de navegación lateral -->
+        <div class="side-nav">
+            <ul>
+                <li><a href="#project1" class="project-link">Dibujo CAD</a></li>
+                <li><a href="#project2" class="project-link">Topografia</a></li>
+                <li><a href="#project3" class="project-link">Analisis Estructural</a></li>
+                <li><a href="#project4" class="project-link">Mecanica de suelos</a></li>
+                <!--<li><a href="#project5" class="project-link">TALUDES y MURO CONTENCION</a></li>
+                <li><a href="#project6" class="project-link">Saneamiento Rural</a></li>
+                <li><a href="#project7" class="project-link">Estructuras Metalicas</a></li>-->
+                <!-- Puedes agregar más proyectos aquí -->
+            </ul>
+        </div>
+    
+        <!-- Contenido de los proyectos -->
+        <div class="projects-content">
+            <div id="project1" class="project">
+                <h3>Dibujo CAD (AUTOCAD ARCHITECTURE - LISP - LAYOUTS - LAYERS)</h3>
+                <p>Plano de Arquitectura - ejm.Techo propio</p>
+                <img src="TECHO PROPIO-A2-.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+                <p>Plano de Instalaciones Electricas- ejm.Vivienda multifamiliar</p>
+                <img src="IE-1.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+                <p>Plano de Instalaciones Sanitarias - ejm.Modulos sshh, Colegio</p>
+                <img src="IS.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+                <p>Elevaciones - ejm.Cerco perimetrico</p>
+                <img src="elevacion.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+                <!--<p>Plano para Tendido de tuberias de GAS</p>-->
+            </div>
+            <div id="project2" class="project">
+                <h3>Topografia (CIVIL 3D - ARCGIS)</h3>
+                <p>Levantamiento Topografico</p>
+                <img src="TOPOGRAFIA.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+                <p>Trazo y Replanteo - Estacion LEYCA TS06</p>
+                <img src="replanteo.jpeg" alt="Imagen relacionada con la actividad" class="project-image">
+            </div>
+            <div id="project3" class="project">
+                <h3>Analisis Estructural (SAP - ETABS - SAFE - MATHCAD)</h3>
+                <p>Hojas de calculo en MathCad</p>
+                <p>Simulacion</p>
+                <p>Memoria de calculo</p>
+            </div>
+            <div id="project4" class="project">
+                <h3>Mecanica de Suelos (GEO5)</h3>
+                <!--<p>CBR</p>-->
+                <p>Ensayo cono de arena,Determinar densidad ASTM D1556</p>
+                <img src="ENSAYO DENSIDAD/ensayo_cono.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+                <img src="ENSAYO DENSIDAD/tendido de tuberia.jpg" alt="Imagen relacionada con la actividad" class="project-image">
+            </div>
+            <div id="project5" class="project">
+                <h3>Taludes (SLIDE - PLAXIS) y Muro Contencion (GEO5)</h3>
+                <p>En aprendisaje</p>
+                <p>Estabilizacion de Taludes</p>
+                <p>Muros de Contencion</p>
+            </div>
+            <div id="project6" class="project">
+                <h3>Saneamiento Rural(WATERCAD - CIVIL3D)</h3>
+                <p>En aprendisaje</p>
+                <p>Cubiertas Metalicas (SAP2000)</p>
+            </div>
+            <div id="project7" class="project">
+                <h3>Estructuras Metalicas(TEKLA - SAP)</h3>
+                <p>En aprendisaje</p>
+                <p>Cubiertas Metalicas (SAP2000)</p>
+                <p>Reservorio</p>
+            </div>
+            <!-- Puedes agregar más proyectos aquí -->
+         </div>
+        </div>
+         </section>
+        
+    
+    <section id="contact" style="display:none;">
+        <div class="contacto-seccion">
+        <h2>Contacto</h2>
+        <p>Residencia: Jiron el triunfo,ate-vitarte, </p>
+        <a href="https://wa.me/+51930921460" class="whatsapp-link">Contactar por WhatsApp</a>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2025 Alexander Huanuqueño. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
